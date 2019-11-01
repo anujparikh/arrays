@@ -41,7 +41,14 @@ This makes it easier to calculate the position of each element by simply adding 
 | fill | Assigns the specified value to each element of the specified range of the specified array | void | 
 | sort | Sorts the specified array into ascending numerical order | void   
 
+#### Common syntaxs
+- Initializing Arrays in java
+```java
+int[] i = new int[4];
+int[] i = new int[]{1,2,3,4};
+```
 
 ### Examples
 - [`Remove Duplicates from Sorted Array:`](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/) [Solution](./src/practice/examples/RemoveDuplicates.java) (Easy)
 - [`Best Time to Buy and Sell Stock II:`](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/564/) [Solution](./src/practice/examples/BuyAndSellStocks.java) (Easy)
+- [`Rotate Array`](https://leetcode.com/problems/rotate-array/) [Solution](./src/practice/examples/RotateArray.java) (Easy)
