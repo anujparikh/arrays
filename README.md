@@ -52,3 +52,4 @@ int[] i = new int[]{1,2,3,4};
 - [`Remove Duplicates from Sorted Array:`](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/) [Solution](./src/practice/examples/RemoveDuplicates.java) (Easy)
 - [`Best Time to Buy and Sell Stock II:`](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/564/) [Solution](./src/practice/examples/BuyAndSellStocks.java) (Easy)
 - [`Rotate Array`](https://leetcode.com/problems/rotate-array/) [Solution](./src/practice/examples/RotateArray.java) (Easy)
+- [`Contains Duplicate`](https://leetcode.com/problems/contains-duplicate/) [Solution](./src/practice/examples/ContainsDuplicate.java) (Easy)
