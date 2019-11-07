@@ -60,3 +60,4 @@ Arrays.copyOfRange(originalArray, fromIndex, toIndex);
 - [`Contains Duplicate`](https://leetcode.com/problems/contains-duplicate/) [Solution](./src/practice/examples/ContainsDuplicate.java) (Easy)
 - [`Single Number`](https://leetcode.com/problems/single-number/) [Solution](./src/practice/examples/SingleNumber.java) (Easy)
 - [`Intersection of 2 Arrays`](https://leetcode.com/problems/intersection-of-two-arrays-ii/) [Solution](./src/practice/examples/Intersection2Arrays.java) (Easy)
+- [`Plus One`](https://leetcode.com/problems/plus-one/) [Solution](./src/practice/examples/PlusOne.java) (Easy)
