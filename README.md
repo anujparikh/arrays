@@ -47,6 +47,11 @@ This makes it easier to calculate the position of each element by simply adding 
 int[] i = new int[4];
 int[] i = new int[]{1,2,3,4};
 ```
+- Copy Arrays in java
+```java
+Arrays.copyOf(originalArray, lengthOfArray);
+Arrays.copyOfRange(originalArray, fromIndex, toIndex);
+```
 
 ### Examples
 - [`Remove Duplicates from Sorted Array:`](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/) [Solution](./src/practice/examples/RemoveDuplicates.java) (Easy)
@@ -54,3 +59,4 @@ int[] i = new int[]{1,2,3,4};
 - [`Rotate Array`](https://leetcode.com/problems/rotate-array/) [Solution](./src/practice/examples/RotateArray.java) (Easy)
 - [`Contains Duplicate`](https://leetcode.com/problems/contains-duplicate/) [Solution](./src/practice/examples/ContainsDuplicate.java) (Easy)
 - [`Single Number`](https://leetcode.com/problems/single-number/) [Solution](./src/practice/examples/SingleNumber.java) (Easy)
+- [`Intersection of 2 Arrays`](https://leetcode.com/problems/intersection-of-two-arrays-ii/) [Solution](./src/practice/examples/Intersection2Arrays.java) (Easy)
