@@ -64,3 +64,4 @@ Arrays.copyOfRange(originalArray, fromIndex, toIndex);
 - [`Move Zeros`](https://leetcode.com/problems/move-zeroes/) [Solution](./src/practice/examples/MoveZeros.java) (Easy)
 - [`Two Sum`](https://leetcode.com/problems/two-sum/) [Solution](./src/practice/examples/TwoSum.java) (Easy)
 - [`Valid Sudoku`](https://leetcode.com/problems/valid-sudoku/) [Solution](./src/practice/examples/ValidSudoku.java) (Easy)
+- [`Rotate Image`](https://leetcode.com/problems/rotate-image/) [Solution](./src/practice/examples/RotateImage.java) (Medium)
