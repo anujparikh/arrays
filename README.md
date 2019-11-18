@@ -51,6 +51,7 @@ int[] i = new int[]{1,2,3,4};
 ```java
 Arrays.copyOf(originalArray, lengthOfArray);
 Arrays.copyOfRange(originalArray, fromIndex, toIndex);
+Arrays.asList(/* pass objects as list */);
 ```
 
 ### Examples
@@ -65,3 +66,4 @@ Arrays.copyOfRange(originalArray, fromIndex, toIndex);
 - [`Two Sum`](https://leetcode.com/problems/two-sum/) [Solution](./src/practice/examples/TwoSum.java) (Easy)
 - [`Valid Sudoku`](https://leetcode.com/problems/valid-sudoku/) [Solution](./src/practice/examples/ValidSudoku.java) (Easy)
 - [`Rotate Image`](https://leetcode.com/problems/rotate-image/) [Solution](./src/practice/examples/RotateImage.java) (Medium)
+- [`3 Sum`](https://leetcode.com/problems/3sum/) [Solution](./src/practice/examples/ThreeSum.java) (Medium)
