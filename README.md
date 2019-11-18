@@ -67,3 +67,4 @@ Arrays.asList(/* pass objects as list */);
 - [`Valid Sudoku`](https://leetcode.com/problems/valid-sudoku/) [Solution](./src/practice/examples/ValidSudoku.java) (Easy)
 - [`Rotate Image`](https://leetcode.com/problems/rotate-image/) [Solution](./src/practice/examples/RotateImage.java) (Medium)
 - [`3 Sum`](https://leetcode.com/problems/3sum/) [Solution](./src/practice/examples/ThreeSum.java) (Medium)
+- [`Set Matrix Zeros`](https://leetcode.com/explore/interview/card/top-interview-questions-medium/103/array-and-strings/777/) [Solution](./src/practice/examples/MatrixZeroes.java) (Medium)
