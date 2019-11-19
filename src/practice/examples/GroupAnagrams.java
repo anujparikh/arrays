@@ -22,21 +22,9 @@ public class GroupAnagrams {
             char[] chars = currentWord.toCharArray();
             Arrays.sort(chars);
             String sortedWord = new String(chars);
-            if (mapping.containsKey(sortedWord)) {
-                mapping.computeIfPresent(sortedWord, (k, v) -> {
-                    v.add(currentWord);
-                    return v;
-                });
-            } else {
-                mapping.computeIfAbsent(sortedWord, k -> {
-                    List<String> list = new ArrayList<>();
-                    list.add(currentWord);
-                    return list;
-                });
-            }
+            if (!mapping.containsKey(sortedWord)) mapping.put(sortedWord, new ArrayList<String>());
+            mapping.get(sortedWord).add(currentWord);
         }
-        List<List<String>> result = new ArrayList<>();
-        mapping.forEach((k, v) -> result.add(v));
-        return result;
+        return new ArrayList<List<String>>(mapping.values());
     }
 }
