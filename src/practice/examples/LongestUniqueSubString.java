@@ -19,16 +19,16 @@ public class LongestUniqueSubString {
         Set<Character> uniqueChars = new HashSet<>();
         while (endIndex < chars.length) {
             boolean isUnique = uniqueChars.add(chars[endIndex]);
-            if (!isUnique) {
-                uniqueChars.clear();
-                startIndex++;
-                endIndex = startIndex;
-            } else {
-                endIndex++;
-            }
             if (uniqueChars.size() > result) {
                 result = uniqueChars.size();
             }
+            if (!isUnique) {
+                while (!(uniqueChars.add(chars[endIndex])) && startIndex <= endIndex) {
+                    uniqueChars.remove(chars[startIndex]);
+                    startIndex++;
+                }
+            }
+            endIndex++;
         }
         return result;
     }
