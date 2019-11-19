@@ -31,8 +31,10 @@ public class MatrixZeroes {
                 }
             }
         */
-        /*
-        Using O(1) extra memory space
+        /**
+         * Using O(1) extra memory space
+         * Approach: Mark 0th row to indicate if that columns has 0 and mark 0th column to indicate if that row has 0
+         * Handle 0th row and column separately (as they have common indicator)
          */
         int rowsLength = matrix.length;
         int columnsLength = matrix[0].length;
