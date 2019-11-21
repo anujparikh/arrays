@@ -69,3 +69,4 @@ Arrays.asList(/* pass objects as list */);
 - [`3 Sum`](https://leetcode.com/problems/3sum/) [Solution](./src/practice/examples/ThreeSum.java) (Medium)
 - [`Set Matrix Zeros`](https://leetcode.com/explore/interview/card/top-interview-questions-medium/103/array-and-strings/777/) [Solution](./src/practice/examples/MatrixZeroes.java) (Medium)
 - [`Group Anagrams`](https://leetcode.com/problems/group-anagrams/) [Solution](./src/practice/examples/GroupAnangrams.java) (Medium)
+- [`Increasing Triplet Subsequence`](https://leetcode.com/problems/increasing-triplet-subsequence/) [Solution](./src/practice/examples/IncTripletSubSeq.java) (Medium)
