@@ -70,3 +70,4 @@ Arrays.asList(/* pass objects as list */);
 - [`Set Matrix Zeros`](https://leetcode.com/explore/interview/card/top-interview-questions-medium/103/array-and-strings/777/) [Solution](./src/practice/examples/MatrixZeroes.java) (Medium)
 - [`Group Anagrams`](https://leetcode.com/problems/group-anagrams/) [Solution](./src/practice/examples/GroupAnangrams.java) (Medium)
 - [`Increasing Triplet Subsequence`](https://leetcode.com/problems/increasing-triplet-subsequence/) [Solution](./src/practice/examples/IncTripletSubSeq.java) (Medium)
+- [`Merge Two Sorted Arrays`](https://leetcode.com/problems/merge-sorted-array/) [Solution](./src/practice/examples/MergeSortedArrays.java) (Easy)
