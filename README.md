@@ -71,3 +71,4 @@ Arrays.asList(/* pass objects as list */);
 - [`Group Anagrams`](https://leetcode.com/problems/group-anagrams/) [Solution](./src/practice/examples/GroupAnangrams.java) (Medium)
 - [`Increasing Triplet Subsequence`](https://leetcode.com/problems/increasing-triplet-subsequence/) [Solution](./src/practice/examples/IncTripletSubSeq.java) (Medium)
 - [`Merge Two Sorted Arrays`](https://leetcode.com/problems/merge-sorted-array/) [Solution](./src/practice/examples/MergeSortedArrays.java) (Easy)
+- [`First Bad Version`](https://leetcode.com/problems/first-bad-version/) [Solution](./src/practice/examples/FirstBadVersion.java) (Easy)
