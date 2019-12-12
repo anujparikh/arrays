@@ -73,3 +73,4 @@ Arrays.asList(/* pass objects as list */);
 - [`Merge Two Sorted Arrays`](https://leetcode.com/problems/merge-sorted-array/) [Solution](./src/practice/examples/MergeSortedArrays.java) (Easy)
 - [`First Bad Version`](https://leetcode.com/problems/first-bad-version/) [Solution](./src/practice/examples/FirstBadVersion.java) (Easy)
 - [`FizzBuzz`](https://leetcode.com/problems/fizz-buzz/) [Solution](./src/practice/examples/FizzBuzz.java) (Easy)
+- [`Count Prime`](https://leetcode.com/problems/count-primes/) [Solution](./src/practice/examples/CountPrime.java) (Easy)
