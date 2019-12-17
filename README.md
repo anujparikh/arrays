@@ -75,3 +75,4 @@ Arrays.asList(/* pass objects as list */);
 - [`FizzBuzz`](https://leetcode.com/problems/fizz-buzz/) [Solution](./src/practice/examples/FizzBuzz.java) (Easy)
 - [`Count Prime`](https://leetcode.com/problems/count-primes/) [Solution](./src/practice/examples/CountPrime.java) (Easy)
 - [`Is Power of Three`](https://leetcode.com/problems/power-of-three/) [Solution](./src/practice/examples/PowerOfThree.java) (Easy)
+- [`Pascal's Triangle`](https://leetcode.com/problems/pascals-triangle/) [Solution](./src/practice/examples/PascalTriangle.java) (Easy)
