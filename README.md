@@ -78,3 +78,4 @@ Arrays.asList(/* pass objects as list */);
 - [`Pascal's Triangle`](https://leetcode.com/problems/pascals-triangle/) [Solution](./src/practice/examples/PascalTriangle.java) (Easy)
 - [`Missing Number`](https://leetcode.com/problems/missing-number/) [Solution](./src/practice/examples/MissingNumber.java) (Easy)
 - [`Sort Colors`](https://leetcode.com/problems/sort-colors/) [Solution](./src/practice/examples/SortColors.java) (Medium)
+- [`Top K Frequent Elements`](https://leetcode.com/problems/top-k-frequent-elements/) [Solution](./src/practice/examples/TopKFrequentElements.java) (Medium)
