@@ -80,3 +80,4 @@ Arrays.asList(/* pass objects as list */);
 - [`Sort Colors`](https://leetcode.com/problems/sort-colors/) [Solution](./src/practice/examples/SortColors.java) (Medium)
 - [`Top K Frequent Elements`](https://leetcode.com/problems/top-k-frequent-elements/) [Solution](./src/practice/examples/TopKFrequentElements.java) (Medium)
 - [`Kth Largest Elements`](https://leetcode.com/problems/kth-largest-element-in-an-array/) [Solution](./src/practice/examples/KthLargestElement.java) (Medium)
+- [`Find Peak Element`](https://leetcode.com/problems/find-peak-element/) [Solution](./src/practice/examples/PeakElement.java) (Medium)
