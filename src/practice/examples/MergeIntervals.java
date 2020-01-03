@@ -1,5 +1,10 @@
 package practice.examples;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+
 /**
  * Given a sorted collection of intervals, merge all overlapping intervals.
  * Example:
@@ -7,34 +12,30 @@ package practice.examples;
  * Input: [[1,4],[4,5]]; Output: [[1,5]]
  */
 public class MergeIntervals {
-    public static int[][] merge(int[][] intervals) {
+    private class IntervalComparator implements Comparator<int[]> {
+        @Override
+        public int compare(int[] a, int[] b) {
+            return Integer.compare(a[0], b[0]);
+        }
+    }
+
+    public int[][] merge(int[][] intervals) {
         if (intervals.length == 1 || intervals.length == 0) {
             return intervals;
         }
-        int count = 0;
-        int i = 0;
-        int j = 1;
-        while (j < intervals.length) {
-            while (j < intervals.length && intervals[i][1] >= intervals[j][0]) {
-                j++;
+        List<int[]> output = new ArrayList<>();
+        Arrays.sort(intervals, new IntervalComparator());
+        for (int[] interval : intervals) {
+            if (output.isEmpty() || output.get(output.size() - 1)[1] < interval[0]) {
+                output.add(interval);
+            } else {
+                output.set(output.size() - 1, new int[]{output.get(output.size() - 1)[0], Math.max(output.get(output.size() - 1)[1], interval[1])});
             }
-            intervals[count][0] = Math.min(intervals[i][0], intervals[j - 1][0]);
-            intervals[count][1] = Math.max(intervals[i][1], intervals[j - 1][1]);;
-            count++;
-            i = j;
-            j = i + 1;
         }
-        if (j == intervals.length) {
-            intervals[count][0] = Math.min(intervals[i][0], intervals[j - 1][0]);
-            intervals[count][1] = Math.max(intervals[i][1], intervals[j - 1][1]);;
-            count++;
+        int[][] finalOutput = new int[output.size()][2];
+        for (int i = 0; i < output.size(); i++) {
+            finalOutput[i] = output.get(i);
         }
-
-        int[][] output = new int[count][2];
-        for (int k = 0; k < output.length; k++) {
-            output[k][0] = intervals[k][0];
-            output[k][1] = intervals[k][1];
-        }
-        return output;
+        return finalOutput;
     }
 }
