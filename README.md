@@ -83,3 +83,4 @@ Arrays.asList(/* pass objects as list */);
 - [`Find Peak Element`](https://leetcode.com/problems/find-peak-element/) [Solution](./src/practice/examples/PeakElement.java) (Medium)
 - [`Find First and Last Position of Element in Sorted Array`](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) [Solution with O(n)](./src/practice/examples/SearchRange.java) (Medium) - Pending `O(log n)` solution
 - [`Merge Intervals`](https://leetcode.com/problems/merge-intervals/)[Solution](./src/practice/examples/MergeIntervals.java) (Medium)
+- [`Non-overlapping Intervals`](https://leetcode.com/problems/non-overlapping-intervals/)[Solution](./src/practice/examples/NonOverlappingInterval.java) (Medium) (Greedy Algorithm - Need to understand that)

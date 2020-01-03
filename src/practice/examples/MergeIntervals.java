@@ -12,7 +12,7 @@ import java.util.List;
  * Input: [[1,4],[4,5]]; Output: [[1,5]]
  */
 public class MergeIntervals {
-    private class IntervalComparator implements Comparator<int[]> {
+    private static class IntervalComparator implements Comparator<int[]> {
         @Override
         public int compare(int[] a, int[] b) {
             return Integer.compare(a[0], b[0]);
