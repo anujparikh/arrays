@@ -82,3 +82,4 @@ Arrays.asList(/* pass objects as list */);
 - [`Kth Largest Elements`](https://leetcode.com/problems/kth-largest-element-in-an-array/) [Solution](./src/practice/examples/KthLargestElement.java) (Medium)
 - [`Find Peak Element`](https://leetcode.com/problems/find-peak-element/) [Solution](./src/practice/examples/PeakElement.java) (Medium)
 - [`Find First and Last Position of Element in Sorted Array`](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) [Solution with O(n)](./src/practice/examples/SearchRange.java) (Medium) - Pending `O(log n)` solution
+- Merge Sorted Intervals [Solution](./src/practice/examples/MergeIntervals.java) (Medium)
