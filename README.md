@@ -77,6 +77,7 @@ Arrays.asList(/* pass objects as list */);
 - [`Is Power of Three`](https://leetcode.com/problems/power-of-three/) [Solution](./src/practice/examples/PowerOfThree.java) (Easy)
 - [`Pascal's Triangle`](https://leetcode.com/problems/pascals-triangle/) [Solution](./src/practice/examples/PascalTriangle.java) (Easy)
 - [`Missing Number`](https://leetcode.com/problems/missing-number/) [Solution](./src/practice/examples/MissingNumber.java) (Easy)
+- [`Search Insert Position`](https://leetcode.com/problems/search-insert-position/submissions/) [Solution](./src/practice/examples/SearchInsertPosition.java) (Easy)
 - [`Sort Colors`](https://leetcode.com/problems/sort-colors/) [Solution](./src/practice/examples/SortColors.java) (Medium)
 - [`Top K Frequent Elements`](https://leetcode.com/problems/top-k-frequent-elements/) [Solution](./src/practice/examples/TopKFrequentElements.java) (Medium)
 - [`Kth Largest Elements`](https://leetcode.com/problems/kth-largest-element-in-an-array/) [Solution](./src/practice/examples/KthLargestElement.java) (Medium)
